@@ -15,3 +15,6 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.project-root-folder }}
+    - ${{ inputs.ANDROID_SECRET_KEY_CONTENTS }}
+    - ${{ inputs.ANDROID_PASSWORD_KEYCHAIN }}
+    - ${{ inputs.ANDROID_PASSWORD_KEY }}
